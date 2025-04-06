@@ -17,7 +17,8 @@ $ npm install
 ## Compile and run the project with docker, 
 make sure you have Makefile installed (make), at least you have node version 22.13.0, docker and docker-compose
 ```bash
-# create these following directories to persist postgres and mongodb data during the application run
+# create these following directories to persist postgres
+# and mongodb data during the application run
 $ mkdir mongodbvolume postgresvolume
 
 # open a terminal and wait until all images are build, and all containers started,
