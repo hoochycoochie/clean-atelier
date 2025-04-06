@@ -19,14 +19,18 @@ make sure you have Makefile installed (make), at least you have node version 22.
 ```bash
 # create these following directories to persist postgres
 # and mongodb data during the application run
+# open a new another terminal and run the sql migrations ,
+# via following script below ($ mkdir mongodbvolume postgresvolume)
 $ mkdir mongodbvolume postgresvolume
 
 # open a terminal and wait until all images are build, and all containers started,
 $ make start
 
-# open a new another terminal and run the sql migrations, 
+# open a new another terminal and run the sql migrations ,
+# via following script below ($ make migratesql)
 # any sql migrations will be run and database synchronided, 
 # and api-container restarted
+# via following script below ($ make migratesql)
 $ make migratesql
 
 # once the api-container is restarted 
