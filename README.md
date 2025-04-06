@@ -22,10 +22,11 @@ $ mkdir mongodbvolume postgresvolume
 # open a terminal and wait until all images are build, and all containers started,
 $ make start
 
-# open a terminal and run the sql migrations
+# open a new another terminal and run the sql migrations
 $ make migratesql
 
-# and then open the swagger at http://localhost:3000/api 
+# once the api-container is restarted 
+# the swagger is then available at http://localhost:3000/api 
 
 ```
  
