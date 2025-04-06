@@ -17,9 +17,7 @@ $ npm install
 ## Compile and run the project with docker, 
 make sure you have Makefile installed (make), at least you have node version 22.13.0, docker and docker-compose
 ```bash
-# create these following directories to persist postgres
-# and mongodb data during the application run
-# open a new another terminal and run the sql migrations ,
+# create (in root directories of the project ) these following directories to persist postgres and mongodb data during the application run
 # via following script below ($ mkdir mongodbvolume postgresvolume)
 $ mkdir mongodbvolume postgresvolume
 
