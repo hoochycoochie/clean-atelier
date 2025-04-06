@@ -24,6 +24,8 @@ make sure you have Makefile installed (make), at least you have node version 22.
 $ mkdir mongodbvolume postgresvolume
 
 # open a terminal and wait until all images are build, and all containers started,
+# and there is no error
+# via following script below ($ make migratesql)
 $ make start
 
 # open a new another terminal and run the sql migrations ,
