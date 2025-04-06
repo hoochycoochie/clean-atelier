@@ -23,7 +23,7 @@ $ mkdir mongodbvolume postgresvolume
 # open a terminal and wait until all images are build, and all containers started,
 $ make start
 
-# open a new another terminal and run the sql migrations, any sql ùigrations will be run and database synchronided, and api-container restarted
+# open a new another terminal and run the sql migrations, any sql migrations will be run and database synchronided, and api-container restarted
 $ make migratesql
 
 # once the api-container is restarted 
