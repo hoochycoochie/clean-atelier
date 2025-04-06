@@ -42,6 +42,18 @@ $ make migratesql
 To run the application , you will need to install nodejs version : 22.13.0, mongodb:8 and postgres:17,
 and make sure to  add credentials in .env file
 
+
+PORT=3000
+MONGO_URI=mongodb://mongodb:27017/atelier
+NODE_ENV=dev
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=admin
+POSTGRES_DB=atelier
+POSTGRES_HOST=postgresdb
+POSTGRES_PORT=5432
+POSTGRES_USER=root
+POSTGRES_PASSWORD=secret
+
 ```bash
 # to run all unit tests
 $ npm run test
