@@ -33,7 +33,7 @@ $ make migratesql
  
 
  ## Compile and run the project locally: change .env file
-To run the application , you will need to install mongodb:8 and postgres:17,
+To run the application , you will need to install nodejs version : 22.13.0, mongodb:8 and postgres:17,
 and make sure to  add credentials in .env file
 
 ```bash
