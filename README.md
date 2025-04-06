@@ -3,7 +3,7 @@
 ## Description
 clean atelier test is done based on nestjs framework
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-[Medium](https://medium.com/@jonathan.pretre91/clean-architecture-with-nestjs-e089cef65045) Clean architecture with Nestjs Jonathan Pretre medium
+Inspired by [Medium](https://medium.com/@jonathan.pretre91/clean-architecture-with-nestjs-e089cef65045) Clean architecture with Nestjs Jonathan Pretre medium
 
 
 ## Project setup
