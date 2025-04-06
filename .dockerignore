@@ -1,0 +1,13 @@
+**/node_modules/
+**/dist
+.git
+npm-debug.log
+.coverage
+.coverage.*
+/postgresvolume
+/mongodbvolume
+/coverage
+docker-compose.yml
+Dockerfile
+README.md
+ 

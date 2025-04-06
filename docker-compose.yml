@@ -1,0 +1,49 @@
+version: '3'
+services:
+
+
+  atelier:
+    container_name: api-container
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      
+    volumes:
+      - ./src:/app/src
+    env_file:
+      - ./.env
+    ports:
+      - '3000:3000'
+    networks:
+      - opennetwork
+    depends_on:
+      - postgresdb
+  mongodb:
+    container_name: mongo-container
+    image: mongo:8
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./mongodbvolume:/data/db
+    env_file:
+      - ./.env
+    networks:
+      - opennetwork
+
+  postgresdb:
+    container_name: postgres-container
+    image: postgres:17
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./postgresvolume:/var/lib/postgresql/data
+    env_file:
+      - ./.env
+    networks:
+      - opennetwork
+    depends_on:
+      - mongodb
+
+networks:
+  opennetwork:
+    driver: bridge
