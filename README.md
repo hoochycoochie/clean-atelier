@@ -9,6 +9,7 @@ Inspired by [Medium](https://medium.com/@jonathan.pretre91/clean-architecture-wi
 ## Project setup
 docker-compose version 1.29.2
 nodejs version : 22.13.0
+deployed on contabo : https://atelier.afalys.com/api
 ```bash
 $ npm install
 ```
